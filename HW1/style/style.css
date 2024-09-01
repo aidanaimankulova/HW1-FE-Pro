@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a.button {
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.grid-container1 {
+    display: grid;
+    flex-wrap: wrap;
+    gap: 20px;
+    grid-template-columns: 250px 250px 250px;
+}
+
+.grid-container2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 250px 250px 250px;
+}
+
+.service-item, .stats-item {
+    background-color: #eaeaea;
+    padding: 60px;
+    text-align: center;
+    border-radius: 20px;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+    background-image: url(https://static.gevestor.de/wp-content/uploads/2023/03/Hochhaueser-skyscrapers-824x434.jpg);
+    color: rgb(222, 217, 208);
+    font-weight: 900;
+    size: 30px;
+    
+}
+
+button {
+    margin-top: 20px;
+    background-color: #f0e1c8;
+    color: #716018;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.highlight {
+    background-color: #007bff;
+    color: #fff;
+}
